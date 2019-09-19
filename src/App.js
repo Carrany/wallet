@@ -16,12 +16,12 @@ function App() {
     <Provider store={store}>
       <BrowserRouter>
         <div className="App">
-         <Redirect exact from="/" to="/login" />
+         <Redirect exact from="/" to="/dashboard" />
 
           <Switch>
             <Route exact path="/login" component={LogInForm} />
             <Route exact path="/register" component={RegisterForm} />
-            <ProtectedRoute exact path="/dashboard" component={LayoutPanel} />
+            <Route exact path="/dashboard" component={LayoutPanel} />
             <Route path="*" component={Page404} />
             
 
