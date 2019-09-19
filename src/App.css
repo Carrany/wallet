@@ -1,0 +1,125 @@
+@import '~antd/dist/antd.css';
+@import '~react-s-alert/dist/s-alert-default.css';
+@import '~react-s-alert/dist/s-alert-css-effects/slide.css';
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  /* display: flex;
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white; */
+}
+
+.App-logo {
+  animation: App-logo-spin ease-in-out infinite 3s;
+  height: 20vmin;
+  pointer-events: none;
+
+}
+.App-header2 {
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  0%, 10%{
+    transform: rotate(0deg);
+  }
+  70%,100% {
+    transform: rotate(360deg);
+  }
+}
+.login-form {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  max-width: 350px;
+  
+}
+.login-form-forgot {
+  float: right;
+}
+.login-form-button {
+  width: 100%;
+}
+.register-form {
+  background-color: white;
+  min-height: 130vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  max-width: 400px;
+  width: 400px;
+  
+}
+.logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
+.trigger {
+  color: #000000;
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+.trigger:hover {
+  color: #1890ff;
+}
+.menu-logo{position: relative;
+  height: 64px;
+  padding-left: 24px;
+  overflow: hidden;
+  line-height: 64px;
+  background: #001529;
+  transition: all .3s;
+}
+.menu-header{
+  display: inline-block;
+    margin: 0 0 0 12px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: Avenir,Helvetica Neue,Arial,Helvetica,sans-serif;
+    vertical-align: middle;
+}
+.menu-header-logo{
+  display: inline-block;
+  height: 32px;
+  vertical-align: middle;
+  font-size: 30px;
+}
+
