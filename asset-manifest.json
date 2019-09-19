@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/wallet/static/css/main.4729085b.chunk.css",
-    "main.js": "/wallet/static/js/main.be42a21c.chunk.js",
-    "main.js.map": "/wallet/static/js/main.be42a21c.chunk.js.map",
+    "main.js": "/wallet/static/js/main.12e149ed.chunk.js",
+    "main.js.map": "/wallet/static/js/main.12e149ed.chunk.js.map",
     "runtime~main.js": "/wallet/static/js/runtime~main.626a16bc.js",
     "runtime~main.js.map": "/wallet/static/js/runtime~main.626a16bc.js.map",
     "static/css/2.3f74805b.chunk.css": "/wallet/static/css/2.3f74805b.chunk.css",
     "static/js/2.889a1046.chunk.js": "/wallet/static/js/2.889a1046.chunk.js",
     "static/js/2.889a1046.chunk.js.map": "/wallet/static/js/2.889a1046.chunk.js.map",
     "index.html": "/wallet/index.html",
-    "precache-manifest.a6c6996752f14d3507dd83f86f2cb047.js": "/wallet/precache-manifest.a6c6996752f14d3507dd83f86f2cb047.js",
+    "precache-manifest.b84bb0ded56333c0b49fff649c2d9b33.js": "/wallet/precache-manifest.b84bb0ded56333c0b49fff649c2d9b33.js",
     "service-worker.js": "/wallet/service-worker.js",
     "static/css/2.3f74805b.chunk.css.map": "/wallet/static/css/2.3f74805b.chunk.css.map",
     "static/css/main.4729085b.chunk.css.map": "/wallet/static/css/main.4729085b.chunk.css.map",
